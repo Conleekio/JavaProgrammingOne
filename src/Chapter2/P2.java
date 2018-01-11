@@ -9,8 +9,6 @@ import java.util.Scanner;
  *
  * @author Conner Kious
  */
-
-
 public class P2 {
 
     /**
@@ -18,7 +16,6 @@ public class P2 {
      *
      * @param args arguments from command line prompt
      */
-
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         double foodPrice, drinkPrice, dessertPrice, taxAmount, tax, tip, tipAmount, foodNTax, firstTotal, finalTotal;

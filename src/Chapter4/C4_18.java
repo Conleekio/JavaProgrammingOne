@@ -1,12 +1,14 @@
 package Chapter4;
+
 import java.util.Scanner;
 
 /**
  * Find and display what major and year you are in school
- * 
+ *
  * @author Conner Kious
  */
 public class C4_18 {
+
     /**
      * Main Method
      *
@@ -61,7 +63,8 @@ public class C4_18 {
                     yearOfStudent = "input.";
                     break;
             }
-        } if (majorOfChoice.equals("Invalid") || yearOfStudent.equals("input.")) {
+        }
+        if (majorOfChoice.equals("Invalid") || yearOfStudent.equals("input.")) {
             System.out.println("Invalid Input");
         } else {
             System.out.println(majorOfChoice + yearOfStudent);
