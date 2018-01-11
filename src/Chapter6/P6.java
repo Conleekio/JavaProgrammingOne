@@ -61,6 +61,15 @@ public class P6 {
         } while (keepGoing.equals("yes"));
     }
 
+    /**
+     * Convert the amount of US dollars to another currency
+     *
+     * @param currency the amount of money you are getting back after your
+     * conversion
+     * @param dollar the amount of US dollars you are using in the conversion
+     * @return the amount of converted money you will be receiving
+     *
+     */
     public static double Converter(double currency, double dollar) {
         double result;
         if (dollar > 100) {
