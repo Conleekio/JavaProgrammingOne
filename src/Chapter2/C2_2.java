@@ -1,11 +1,12 @@
 package Chapter2;
 
+import java.util.Scanner;
+
 /**
  * Display the area and volume of a cylinder with user input values
  *
  * @author Conner Kious
  */
-import java.util.Scanner;
 
 public class C2_2 {
 
